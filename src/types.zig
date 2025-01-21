@@ -94,6 +94,7 @@ pub const GenerateResponse = struct {
     created_at: []const u8,
     response: []const u8,
     done: bool,
+    done_reason: []const u8,
     context: ?[]const u32 = null,
     total_duration: ?u64 = null,
     load_duration: ?u64 = null,
